@@ -17,6 +17,7 @@ module.exports = function(environment) {
       'media-src': "'self'"
       /* jshint ignore:end */
     },
+    'ember-devtools': {global: 'devTools', enabled: environment !== 'production'},
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
