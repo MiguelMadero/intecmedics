@@ -7,6 +7,9 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     firebase: 'https://intecmedics-dev.firebaseio.com/',
+    torii: {
+      sessionServiceName: 'session'
+    },
     contentSecurityPolicy: {
       /* jshint ignore:start */
       'default-src': "'none'",
