@@ -12,7 +12,7 @@ module.exports = function(environment) {
       'default-src': "'none'",
       'script-src': "'self'",
       'font-src': "'self' http://fonts.gstatic.com https://fonts.gstatic.com",
-      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com",
+      'connect-src': "'self' https://auth.firebase.com https://*.firebaseio.com wss://*.firebaseio.com",
       'img-src': "'self' data:",
       'media-src': "'self'"
       /* jshint ignore:end */
