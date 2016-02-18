@@ -19,5 +19,5 @@ export default DS.Model.extend({
   motivo1: DS.attr('string'),
   motivo2: DS.attr('string'),
   ocupacion: DS.attr('string'),
-  factura: DS.attr('boolean')
+  hasFactura: DS.attr('boolean')
 });
